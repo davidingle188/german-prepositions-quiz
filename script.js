@@ -38,7 +38,7 @@ function speak(text) {
 
 function startGame() {
   // Hide the Main Page button when the game starts
-  document.getElementById("mainPageBtn").style.display = "none";
+  // document.getElementById("mainPageBtn").style.display = "none";
 
   score = 0;
   questionCount = 0;
@@ -110,3 +110,4 @@ function checkAnswer(selectedCase) {
 document.getElementById("mainPageBtn").addEventListener("click", function () {
   window.location.href = "https://davidingle188.github.io/Nouns-game-/"; // replace with your main page URL
 });
+
